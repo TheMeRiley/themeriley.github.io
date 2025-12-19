@@ -1,1 +1,1 @@
-
+Welcome to my site! This website will mainly have unblocked games and stuff like that (also proxies possibly). I am currently working on this site along with a couple other people, so expect it close to done by the end of winter break. Thanks!
