@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Idle Breakout</title>
+<link rel="shortcut icon" href="idlebreakout.png">
+<script src="everypage.js"></script>
+</head>
+<body onload='focus()'>
+<a href=".." style='font-size: 1.5rem;'>Back To Home Page</a>
+<button onclick="openFullscreen('main')" style='font-size: 1.5rem;'>Fullscreen Mode</button>
+<iframe style='height: 768px; width: 1024px;' allow="fullscreen" allowfullscreen scrolling="no" frameborder="0" id="main" allowtransparency="true" 
+        src="../g/idlebreakout/main.html"></iframe>
+<script src="fullScreen.js"></script>
+<script src="load.js"></script>
+<script>function focus() {document.getElementById('main').focus();}</script>
+</body>
+</html>
