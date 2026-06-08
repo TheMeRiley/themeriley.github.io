@@ -8,6 +8,18 @@ body {
     color: #f2f2f2;
 
     text-align: left; 
+    animation: fadeIn 0.4s ease;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 #navbar:hover ~ div,
@@ -174,7 +186,7 @@ span {
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px) scale(1.01);
     background: #1d1d1d;
 }
 
